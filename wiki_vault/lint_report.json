@@ -1,0 +1,17 @@
+{
+  "timestamp": "2026-07-11T10:50:58.833922",
+  "vault_path": "wiki_vault",
+  "total_pages": 6,
+  "total_links": 50,
+  "broken_links": [],
+  "orphan_pages": [],
+  "conflicts": [],
+  "hallucinations": [],
+  "auto_fixes": [],
+  "scores": {
+    "completeness": 100,
+    "link_health": 100,
+    "consistency": 100
+  },
+  "summary": "知识库审计完成: 6 个页面, 50 条链接\n评分 - 完整性: 100/100, 链接健康度: 100/100, 一致性: 100/100\n🌟 知识库整体状态优秀"
+}

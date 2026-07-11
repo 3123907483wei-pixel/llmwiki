@@ -1,0 +1,292 @@
+{
+  "metadata": {
+    "version": "1.0",
+    "updated_at": "2026-07-11T10:50:57.545784",
+    "node_count": 6,
+    "edge_count": 50
+  },
+  "nodes": [
+    {
+      "id": "Attention",
+      "label": "Attention",
+      "type": "concept"
+    },
+    {
+      "id": "BERT",
+      "label": "BERT",
+      "type": "concept"
+    },
+    {
+      "id": "GPT",
+      "label": "GPT",
+      "type": "concept"
+    },
+    {
+      "id": "LLM",
+      "label": "LLM",
+      "type": "concept"
+    },
+    {
+      "id": "Self-Attention",
+      "label": "Self-Attention",
+      "type": "concept"
+    },
+    {
+      "id": "Transformer",
+      "label": "Transformer",
+      "type": "concept"
+    }
+  ],
+  "edges": [
+    {
+      "source": "Attention",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "Self-Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "Attention",
+      "target": "LLM",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "LLM",
+      "relation": "references"
+    },
+    {
+      "source": "BERT",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "LLM",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "LLM",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "LLM",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "GPT",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "LLM",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Self-Attention",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Self-Attention",
+      "target": "Transformer",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "Self-Attention",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "GPT",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "BERT",
+      "relation": "references"
+    },
+    {
+      "source": "Transformer",
+      "target": "LLM",
+      "relation": "references"
+    }
+  ]
+}

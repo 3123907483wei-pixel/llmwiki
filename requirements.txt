@@ -1,0 +1,23 @@
+# ============================================================
+# LLM Wiki — 自演进知识管理系统依赖
+# ============================================================
+
+# === 核心框架 ===
+streamlit>=1.28.0          # 前端交互看板
+fastapi>=0.104.0           # RESTful API 后端
+uvicorn[standard]>=0.24.0  # ASGI 服务器
+
+# === 图算法 ===
+networkx>=3.1              # 图拓扑构建与 PageRank 算法
+
+# === PDF 解析（可选） ===
+# PyMuPDF>=2.0.0           # PDF 文本提取（fitz）
+# pdfminer.six>=20231228   # PDF 解析备选
+
+# === LLM API 调用（可选） ===
+# openai>=1.0.0             # OpenAI/DeepSeek API 客户端
+# httpx>=0.25.0            # HTTP 客户端
+
+# === 工具 ===
+pydantic>=2.0.0            # 数据验证
+python-multipart>=0.0.6    # 文件上传支持
